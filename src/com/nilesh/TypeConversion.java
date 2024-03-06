@@ -8,5 +8,10 @@ public class TypeConversion {
 //        Type Conversion
         int num = (int) input.nextFloat();
         System.out.println("Print this input as a Integer: " + num);
+
+//        Automatic type promotion in expressions
+        int a = 257;
+        byte b = (byte) (a);
+        System.out.println(b);
     }
 }
