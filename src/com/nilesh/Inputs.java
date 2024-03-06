@@ -11,11 +11,12 @@ public class Inputs {
 
 //        int a = 203_000_000;
 //        System.out.println(a);
-        System.out.println("If you want only first sentence");
+        System.out.println("If you want only first sentence: ");
         String name = input.next();
         System.out.println(name);
-        System.out.println("If you Want print full sentence then do its");
+
         String names = input.nextLine();
+        System.out.println("If you Want print full sentence then do its :");
         System.out.println(names);
 
     }
